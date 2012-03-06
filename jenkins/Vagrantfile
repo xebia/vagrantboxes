@@ -1,9 +1,0 @@
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
-
-Vagrant::Config.run do |config|
-  config.vm.box = "debian_squeeze64"
-  config.vm.box_url = "http://dl.dropbox.com/u/10864279/debian_squeeze64.box"
-  config.vm.provision :puppet
-  config.vm.forward_port 8080, 8080
-end
