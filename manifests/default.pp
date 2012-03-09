@@ -10,7 +10,7 @@ include apt
 #Choose which you like below
 #include jenkins
 #include sonar
-
+#include mongodb
 
 
 
