@@ -1,0 +1,2 @@
+
+CREATE USER dbuser WITH PASSWORD 'pass1234';

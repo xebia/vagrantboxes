@@ -1,0 +1,4 @@
+
+CREATE DATABASE dbdatabase WITH OWNER dbuser ENCODING 'UTF8' TEMPLATE template0;
+GRANT ALL PRIVILEGES ON DATABASE dbdatabase to dbuser;
+

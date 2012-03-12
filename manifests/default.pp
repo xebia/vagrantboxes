@@ -11,7 +11,7 @@ include apt
 #include jenkins
 #include sonar
 #include mongodb
-
+#include postgresql
 
 
 
