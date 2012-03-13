@@ -12,7 +12,7 @@ include apt
 #include sonar
 #include mongodb
 #include postgresql
-
+#include nexus
 
 
 #Notices for user convenience
