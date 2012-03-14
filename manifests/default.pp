@@ -13,6 +13,7 @@ include apt
 #include mongodb
 #include postgresql
 #include nexus
+#include x11
 
 
 #Notices for user convenience

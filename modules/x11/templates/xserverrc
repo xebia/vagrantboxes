@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /bin/su -l -c "/usr/bin/Xvnc -ac -AlwaysShared --SecurityTypes=None :0" vagrant
