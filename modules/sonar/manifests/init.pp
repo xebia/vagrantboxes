@@ -3,14 +3,14 @@
 class sonar {
     $sonarVersion = "2.13.1"
     exec { "download sonar":
-        command => "/usr/bin/wget --continue --output-document=/opt/sonar-${sonarVersion}.zip http://dist.sonar.codehaus.org/sonar-${sonarVersion}.zip",
-        creates => "/opt/sonar-${sonarVersion}.zip",
+        command => "/usr/bin/wget --continue --output-document=/vagrant/downloads/sonar-${sonarVersion}.zip http://dist.sonar.codehaus.org/sonar-${sonarVersion}.zip",
+        creates => "/vagrant/downloads/sonar-${sonarVersion}.zip",
     }
     
     package {"unzip": ensure => installed}
     
     exec { "extract sonar":
-        command => "/usr/bin/unzip sonar-${sonarVersion}.zip",
+        command => "/usr/bin/unzip /vagrant/downloads/sonar-${sonarVersion}.zip",
         cwd => "/opt/",
         creates => "/opt/sonar-${sonarVersion}/",
         require => [Package['unzip'], Exec['download sonar']],
