@@ -15,6 +15,7 @@ include apt
 #include nexus
 #include x11
 #include oraclejdks
+#include devtools   #Install git, vim, emacs, network tools
 
 #Notices for user convenience
 notice("You can connect to your guest services via: ${::ipaddress_eth1}")
