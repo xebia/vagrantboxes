@@ -16,6 +16,7 @@ include apt
 #include x11
 #include oraclejdks
 #include devtools   #Install git, vim, emacs, network tools
+#include xebium_ci
 
 #Notices for user convenience
 notice("You can connect to your guest services via: ${::ipaddress_eth1}")

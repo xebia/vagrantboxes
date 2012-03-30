@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.git.GitSCM_-DescriptorImpl>
+  <helpRedirect/>
+  <generation>3</generation>
+  <globalConfigName>Jenkins CI</globalConfigName>
+  <globalConfigEmail>jenkins@example.com</globalConfigEmail>
+</hudson.plugins.git.GitSCM_-DescriptorImpl>
